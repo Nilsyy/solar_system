@@ -55,3 +55,11 @@ class Moon < Body
     @planet = planet
   end
 end
+
+helios = Star.new("Sun", 100, "G-Type")
+gaia = Planet.new("Earth", 10, 365, 30)
+luna = Moon.new("Moon", 5, 29, gaia)
+
+puts helios
+puts gaia
+puts luna
